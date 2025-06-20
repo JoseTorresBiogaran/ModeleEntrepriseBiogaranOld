@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrammes" version="4">
+  <OBJECT>
+    <ID name="Diagrammes" mc="Standard.Package" uid="b09cdab5-9244-4d04-9684-42c65f237963"/>
+    <PID name="biogaran" mc="Standard.Package" uid="6f565233-2b52-4b52-af3a-147ff4055f35"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrammes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="Modèle de données" mc="Standard.ClassDiagram" uid="e4abe1e3-7936-446e-9bad-6492cbbf02c7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

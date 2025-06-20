@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dwh_core" version="4">
+  <OBJECT>
+    <ID name="dwh_core" mc="Standard.Package" uid="03a509c6-83de-4f26-b87f-2128badd13bc"/>
+    <PID name="datamodel" mc="Standard.Package" uid="d619511f-d06d-49c2-a409-ed04308051cf"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dwh_core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="fai_negociation_encodage" mc="Standard.Class" uid="a5e1e884-6d54-4f0e-9e84-fe8be2a70e74"/>
+        <COMPID name="fai_mdm_chemin_utilise" mc="Standard.Class" uid="a9d7e555-aa5a-4db0-9352-f6532b102288"/>
+        <COMPID name="fai_rupture" mc="Standard.Class" uid="a7608ebc-2e09-42c1-b0ab-a79f07cba7a6"/>
+        <COMPID name="fai_demande_contrat" mc="Standard.Class" uid="8980eadd-0079-47f8-9e5d-96000e3c2ad9"/>
+        <COMPID name="fai_gamme_commerciale" mc="Standard.Class" uid="796ba9c9-d490-4f25-968a-f666836a8ad9"/>
+        <COMPID name="ref_produit_bi" mc="Standard.Class" uid="1536e78d-f29a-4e3a-b5db-cc35912a6879"/>
+        <COMPID name="ref_ressources" mc="Standard.Class" uid="eaf539e0-1ee7-4f40-a318-831fb2ac4479"/>
+        <COMPID name="fai_evenement_etablissement" mc="Standard.Class" uid="fc07f8fc-9fd8-4180-9b08-f6575c96bb12"/>
+        <COMPID name="fai_histo_officines" mc="Standard.Class" uid="e40e207d-f964-4590-9003-f669cc80d71a"/>
+        <COMPID name="fai_sap_flux_document" mc="Standard.Class" uid="49adbbc6-23c6-4f59-ac4f-60c6a1ae4608"/>
+        <COMPID name="fai_entrepot_mvt_stock" mc="Standard.Class" uid="c04fa0b9-2ea8-42f6-a81b-aa670f71d3bc"/>
+        <COMPID name="fai_potentiel" mc="Standard.Class" uid="697d2577-a53e-4769-8fd8-78d3d048b2b6"/>
+        <COMPID name="fai_ligne_facture_histo" mc="Standard.Class" uid="f3a0849f-fa17-47ce-b24e-6409ae718ba4"/>
+        <COMPID name="fai_lien_facture_rdp" mc="Standard.Class" uid="66d72011-623e-4e60-b05b-e65e95cb8a16"/>
+        <COMPID name="fai_segmentation" mc="Standard.Class" uid="3fe9a541-41d9-4eb8-bd0d-24569588f3bf"/>
+        <COMPID name="ref_zone" mc="Standard.Class" uid="6aafd8e2-d041-4555-bc8c-cd6b80aca766"/>
+        <COMPID name="ref_emetteur" mc="Standard.Class" uid="1bb05172-5e9a-4eb8-b03a-24a1281907ae"/>
+        <COMPID name="fai_switch" mc="Standard.Class" uid="35b144ec-a495-4225-9558-546284f1e0c1"/>
+        <COMPID name="ref_sap_fournisseur" mc="Standard.Class" uid="d90a0f55-4f81-4761-badc-70f840130e9d"/>
+        <COMPID name="fai_bca_bilan_ca_histo_bi" mc="Standard.Class" uid="fbb40f8e-c5a8-4a04-9587-d303f8eae94e"/>
+        <COMPID name="fai_ligne_facture_vistex" mc="Standard.Class" uid="ecb3e7ce-51a6-49eb-abe8-599fd9b57fb3"/>
+        <COMPID name="fai_rdi" mc="Standard.Class" uid="250a038c-fb03-4a71-9496-326989cd1ea3"/>
+        <COMPID name="fai_ent_grossiste_ligne" mc="Standard.Class" uid="6ffaf1d1-23e4-4884-8a84-2e0090781de2"/>
+        <COMPID name="fai_offisante_regional" mc="Standard.Class" uid="337f9b01-dfac-4fdf-9886-3f05643e8c12"/>
+        <COMPID name="fai_prix" mc="Standard.Class" uid="8aac3714-f10d-42ec-a4fa-1b70a8c44e97"/>
+        <COMPID name="ref_condition_vente" mc="Standard.Class" uid="71062fc6-6d41-46f9-bb01-f5db45bfffd4"/>
+        <COMPID name="ref_qualif_off_valeur" mc="Standard.Class" uid="538260ee-d231-419d-b43d-09ebfe05922c"/>
+        <COMPID name="ref_uga" mc="Standard.Class" uid="44577abf-4844-4628-b291-ee8b55e48c70"/>
+        <COMPID name="fai_ligne_contrat" mc="Standard.Class" uid="ddcde2f9-7c75-4b24-9828-4f7a80d92696"/>
+        <COMPID name="fai_ent_grossiste_entete" mc="Standard.Class" uid="5cd897b7-104f-4e84-b633-2922ce23d416"/>
+        <COMPID name="fai_service_do" mc="Standard.Class" uid="164033c8-70bd-49b5-9c74-a99a7c200072"/>
+        <COMPID name="fai_histo_contrat" mc="Standard.Class" uid="34939369-d36e-45f8-95d0-5c1610d0841c"/>
+        <COMPID name="fai_ca_assiette_pco" mc="Standard.Class" uid="2b89dd70-cf39-41e8-b5de-cf4088a4c896"/>
+        <COMPID name="fai_ligne_rdp_calcul_mensuel" mc="Standard.Class" uid="8a336cd9-6399-4172-8711-6040e3fc6b8f"/>
+        <COMPID name="ref_sectorisation" mc="Standard.Class" uid="bde4886e-2dfb-476e-9580-b622215f632c"/>
+        <COMPID name="ref_secteur" mc="Standard.Class" uid="e40b0d8e-8931-4635-8919-f65df9b4f274"/>
+        <COMPID name="fai_qualif_off_histo" mc="Standard.Class" uid="6e952262-f25a-4568-8aa3-130df87ecd97"/>
+        <COMPID name="fai_mouvement" mc="Standard.Class" uid="6cad9a7c-5dd3-4875-9f4a-1a6b3037ec79"/>
+        <COMPID name="fai_ligne_rdp_calcul_quoti" mc="Standard.Class" uid="f36a3cb1-9559-4459-8cb3-de2d0f84ff1e"/>
+        <COMPID name="fai_offisante_national" mc="Standard.Class" uid="656c33c0-8165-4222-96d0-27e892e82b09"/>
+        <COMPID name="ref_lgo" mc="Standard.Class" uid="b0035cff-2c74-4117-b339-71500397ba63"/>
+        <COMPID name="fai_engagement_dispomax" mc="Standard.Class" uid="d12b9bc5-be55-4114-aea2-3de9809bd762"/>
+        <COMPID name="fai_sap_commande_vente" mc="Standard.Class" uid="af438597-383b-45c5-a59f-3c8b7dba6bda"/>
+        <COMPID name="ref_societe_juridique" mc="Standard.Class" uid="7f1e704b-1b63-46a2-81a0-abdac55f5f95"/>
+        <COMPID name="ref_service" mc="Standard.Class" uid="b2e22431-242b-4f75-b20a-8cddc4df6360"/>
+        <COMPID name="fai_prix_vente" mc="Standard.Class" uid="d8995362-c857-4880-aa67-5d0526261009"/>
+        <COMPID name="ref_qualif_off_champ" mc="Standard.Class" uid="561c7888-7a6a-43ba-adf0-23e62a056013"/>
+        <COMPID name="fai_parcours_retention" mc="Standard.Class" uid="210bdb86-1f9b-4288-93d8-ce8b7645ac5e"/>
+        <COMPID name="fai_mdm_etape" mc="Standard.Class" uid="4719dcae-c50d-47fd-9602-94912900fd52"/>
+        <COMPID name="fai_relationship" mc="Standard.Class" uid="64643cb4-63b8-4855-9bec-38f0679b3610"/>
+        <COMPID name="fai_position_concurrentielle" mc="Standard.Class" uid="30166141-dd3d-47df-bded-f8231a7ed838"/>
+        <COMPID name="fai_reservation" mc="Standard.Class" uid="0f24f804-2e18-4cd2-9e16-3eda5a730111"/>
+        <COMPID name="fai_stock" mc="Standard.Class" uid="bd8d5dd7-dec3-479d-9ce1-159ac17e157c"/>
+        <COMPID name="ref_rbc_liste" mc="Standard.Class" uid="f58da670-02a5-4c65-918d-34c30c240924"/>
+        <COMPID name="fai_remise" mc="Standard.Class" uid="fd883e04-a28f-4947-906f-0bcb22d448c4"/>
+        <COMPID name="fai_parcours_questions" mc="Standard.Class" uid="0af5620a-9b11-45e5-a2de-4dbb5c6db4ab"/>
+        <COMPID name="rejet_factures" mc="Standard.Class" uid="8511b16b-c8a8-4a1a-9222-e0f3e917802a"/>
+        <COMPID name="fai_histo_gpt" mc="Standard.Class" uid="57c1427a-48d3-44a0-9bca-01cd9bd075e0"/>
+        <COMPID name="fai_rdp_eligibilite" mc="Standard.Class" uid="a79aca57-08d6-4a7d-a9cc-7a0871dc2e3c"/>
+        <COMPID name="fai_ligne_acte_achat" mc="Standard.Class" uid="16df8274-15c6-4cf8-85e7-abf6b7388772"/>
+        <COMPID name="ref_mdm_partenaire" mc="Standard.Class" uid="9db7b7b5-8858-476b-918f-0164a727b747"/>
+        <COMPID name="fai_exclusion_standard_pco" mc="Standard.Class" uid="a7abd8cd-15e3-49d3-bb80-19b9913331fc"/>
+        <COMPID name="ref_mdm_operation" mc="Standard.Class" uid="ea629384-fb8a-4470-bbf7-92415cb5666e"/>
+        <COMPID name="fai_ligne_facture_coop" mc="Standard.Class" uid="f8f1d355-5de0-44cf-9358-12ace742c51a"/>
+        <COMPID name="fai_sap_demande_achat" mc="Standard.Class" uid="106c17d6-c482-4c28-a4b2-d877fc96a674"/>
+        <COMPID name="ref_sap_client" mc="Standard.Class" uid="b808a40b-8a1f-4466-93c0-b088f2d4fb7b"/>
+        <COMPID name="ref_produit" mc="Standard.Class" uid="c3e1187d-e788-413c-905e-0cb161d6d1b4"/>
+        <COMPID name="fai_histo_statut_contrat" mc="Standard.Class" uid="6de207c4-9c1b-4745-ac71-0feddccb73fa"/>
+        <COMPID name="fai_affectations_uga" mc="Standard.Class" uid="87f3e30d-4255-4716-a45c-294b845c7514"/>
+        <COMPID name="fai_contingentement" mc="Standard.Class" uid="8e0f603d-56dd-4f44-86bd-2b4c0a009122"/>
+        <COMPID name="fai_lgo" mc="Standard.Class" uid="63462085-c279-4e9a-9ba4-aae0737dc843"/>
+        <COMPID name="ref_produit_bi_code_m" mc="Standard.Class" uid="7d680deb-f810-4e3c-b572-0357800faf0c"/>
+        <COMPID name="fai_parcours" mc="Standard.Class" uid="bfa9bbc9-812b-496f-93ce-9b64a56f7f8a"/>
+        <COMPID name="fai_engagement_conseil" mc="Standard.Class" uid="ba65af98-e51a-48c1-a696-e494deedc666"/>
+        <COMPID name="fai_sap_prix_achat_produit" mc="Standard.Class" uid="da56f9c8-ccc7-4866-92f5-24b5334bd020"/>
+        <COMPID name="ref_site_pro" mc="Standard.Class" uid="2ca1e3be-0d26-4392-b589-805b1ba53c5f"/>
+        <COMPID name="ref_officine_20250401" mc="Standard.Class" uid="70892479-4b76-4a08-9b90-2e73f354ff78"/>
+        <COMPID name="fai_sap_commande_achat" mc="Standard.Class" uid="150bca58-32a3-49f2-9c91-0df18c839558"/>
+        <COMPID name="fai_relationship_role" mc="Standard.Class" uid="ca5f01eb-f002-42b4-92e0-5fd4eef354cf"/>
+        <COMPID name="fai_priorite_ipad" mc="Standard.Class" uid="fc99d243-2667-46fa-8522-18d0e489e5b7"/>
+        <COMPID name="ref_contrat" mc="Standard.Class" uid="cc05af83-92ba-4bbd-a8de-81dd1d44ab04"/>
+        <COMPID name="ref_categorie_produit" mc="Standard.Class" uid="5c4cde82-f1c1-469c-9f0e-edbf19a49325"/>
+        <COMPID name="fai_ligne_avoir_rdp" mc="Standard.Class" uid="3425cde3-87d7-4946-9226-df846932f9c1"/>
+        <COMPID name="ref_amm" mc="Standard.Class" uid="9b97e642-8b4c-456d-b259-5d06214ac8ae"/>
+        <COMPID name="ref_client" mc="Standard.Class" uid="1f7e9811-f2b5-45a9-8913-1ac86b09f946"/>
+        <COMPID name="ref_client_complement_neo" mc="Standard.Class" uid="cb0e5f3f-e4dd-4fb1-9695-2afaaa1ea15c"/>
+        <COMPID name="fai_sap_mvt_stock" mc="Standard.Class" uid="a1f0bda1-1db4-449d-8484-e03b4f9b40fd"/>
+        <COMPID name="ref_produit_bi_in02" mc="Standard.Class" uid="94fa29a6-2f47-4742-b8f6-0b4957fc7eb6"/>
+        <COMPID name="fai_ligne_facture" mc="Standard.Class" uid="aa2850ac-6e2e-4bbe-82af-1d4d8fcde4dc"/>
+        <COMPID name="fai_prepa_plus" mc="Standard.Class" uid="bda13cb0-77ef-445d-bac1-f43c822eb8ca"/>
+        <COMPID name="ref_region" mc="Standard.Class" uid="082a5654-b0fa-47c3-8780-5f04a7af419c"/>
+        <COMPID name="ref_contact" mc="Standard.Class" uid="b4bbd825-ed75-492a-8a8f-9a314f24e86b"/>
+        <COMPID name="fai_leader_opinion" mc="Standard.Class" uid="83091825-588e-4130-a572-1ee4aab28669"/>
+        <COMPID name="fai_ligne_commande" mc="Standard.Class" uid="ce822729-a276-480c-bb2f-c050a999fe04"/>
+        <COMPID name="fai_sap_stock" mc="Standard.Class" uid="879a5cdb-e914-4122-b881-54e6b5123ffb"/>
+        <COMPID name="fai_sap_fiche_info_article" mc="Standard.Class" uid="672b74bd-b7df-4740-a145-e5aeacccf9f0"/>
+        <COMPID name="fai_action" mc="Standard.Class" uid="72550f7c-29ba-42bf-b120-fa71bf2d26a9"/>
+        <COMPID name="fai_adresse" mc="Standard.Class" uid="b37a5455-f68b-4a1c-a994-f5d19c91b679"/>
+        <COMPID name="fai_exclusion_groupement_pco" mc="Standard.Class" uid="97b900d4-0303-48cd-8161-c87ae89e9eb4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

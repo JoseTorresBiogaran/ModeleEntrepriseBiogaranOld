@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modèle Biogaran Reverse Doc" version="4">
+  <OBJECT>
+    <ID name="Modèle Biogaran Reverse Doc" mc="Standard.Project" uid="906496d8-5e9f-4d1b-8940-42bd8d7faf80"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Modèle Biogaran Reverse Doc]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="root" mc="Standard.Package" uid="f4b053c8-c53d-4ab2-a2a6-e7952285ce28"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Modèle Biogaran Reverse Doc" mc="Infrastructure.DiagramSet" uid="4127284c-6b0d-45cd-8f70-372773c07ca5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
