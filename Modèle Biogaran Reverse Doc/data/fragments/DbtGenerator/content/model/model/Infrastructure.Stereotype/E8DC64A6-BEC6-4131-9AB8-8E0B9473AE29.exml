@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DbtColumnInformation" version="4">
+  <OBJECT>
+    <ID name="DbtColumnInformation" mc="Infrastructure.Stereotype" uid="E8DC64A6-BEC6-4131-9AB8-8E0B9473AE29"/>
+    <PID name="DatavaultBuilderGeneratorProfile" mc="Infrastructure.Profile" uid="1A6FCBC8-39B7-46EE-B847-4DF29B08A53C"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/icons/logo-acc-seul-16.png]]></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[DbtColumnInformation]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Attribute]]></ATT>
+      <ATT name="Name"><![CDATA[DbtColumnInformation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="18C4AE6D-0B6D-4A3B-BAD8-A998B154A4B6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

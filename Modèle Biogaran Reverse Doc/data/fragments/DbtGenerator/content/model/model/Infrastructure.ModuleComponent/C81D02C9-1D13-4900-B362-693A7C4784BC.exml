@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DbtGenerator" version="4">
+  <OBJECT>
+    <ID name="DbtGenerator" mc="Infrastructure.ModuleComponent" uid="C81D02C9-1D13-4900-B362-693A7C4784BC"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">5</ATT>
+      <ATT name="MinVersion">4</ATT>
+      <ATT name="MinMinVersion"><![CDATA[1]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[fr.acceliance.modelio.dbtgen.impl.ModelioDBTGenModule]]></ATT>
+      <ATT name="Name"><![CDATA[DbtGenerator]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedPropertyType">
+        <COMPID name="TargetDatabase" mc="Infrastructure.EnumeratedPropertyType" uid="900658db-3909-4a93-ac6f-008cd66c2fb9"/>
+      </COMP>
+      <COMP relation="OwnedProfile">
+        <COMPID name="DatavaultBuilderGeneratorProfile" mc="Infrastructure.Profile" uid="1A6FCBC8-39B7-46EE-B847-4DF29B08A53C"/>
+      </COMP>
+      <COMP relation="ModuleParameter">
+        <OBJECT>
+          <ID name="DbtPath" mc="Infrastructure.ModuleParameter" uid="917E972E-02FA-40C4-BA26-0EDE8D5CB2BE"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_DIRECTORY</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"></ATT>
+            <ATT name="Name"><![CDATA[DbtPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GenerateColumnNamesSnake" mc="Infrastructure.ModuleParameter" uid="76ED7DEF-C86A-4DD5-AD7F-D5B06B885B02"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_BOOLEAN</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"><![CDATA[false]]></ATT>
+            <ATT name="Name"><![CDATA[GenerateColumnNamesSnake]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TargetDatabase" mc="Infrastructure.ModuleParameter" uid="217A85A8-6746-4A0C-ACEA-8F1BE5D848D2"/>
+          <ATTRIBUTES>
+            <ATT name="GroupName"></ATT>
+            <ATT name="Type">TYPE_PARAM_ENUM</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="DefaultValue"><![CDATA[PostGre]]></ATT>
+            <ATT name="Name"><![CDATA[TargetDatabase]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="EnumType">
+              <ID name="TargetDatabase" mc="Infrastructure.EnumeratedPropertyType" uid="900658db-3909-4a93-ac6f-008cd66c2fb9"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

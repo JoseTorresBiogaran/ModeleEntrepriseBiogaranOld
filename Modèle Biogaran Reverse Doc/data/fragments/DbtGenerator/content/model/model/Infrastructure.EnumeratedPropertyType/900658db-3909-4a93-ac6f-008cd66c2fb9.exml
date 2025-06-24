@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TargetDatabase" version="4">
+  <OBJECT>
+    <ID name="TargetDatabase" mc="Infrastructure.EnumeratedPropertyType" uid="900658db-3909-4a93-ac6f-008cd66c2fb9"/>
+    <PID name="DbtGenerator" mc="Infrastructure.ModuleComponent" uid="C81D02C9-1D13-4900-B362-693A7C4784BC"/>
+    <ATTRIBUTES>
+      <ATT name="BaseType">String</ATT>
+      <ATT name="Name"><![CDATA[TargetDatabase]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Litteral">
+        <OBJECT>
+          <ID name="PostGre" mc="Infrastructure.PropertyEnumerationLitteral" uid="062d1301-e2bd-4c85-aca4-bfe9b13f7cdb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[PostGre]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Snowflake" mc="Infrastructure.PropertyEnumerationLitteral" uid="dfd735e6-7327-4c10-95ab-40f1250410c3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Snowflake]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="BigQuery" mc="Infrastructure.PropertyEnumerationLitteral" uid="38d9467b-acba-4c0d-bf9d-72b30995dca4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[BigQuery]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Synapse" mc="Infrastructure.PropertyEnumerationLitteral" uid="bc8342a3-c4b7-4dc1-bdcf-c834b7cea3a8"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Synapse]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

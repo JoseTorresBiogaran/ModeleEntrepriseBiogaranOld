@@ -36,6 +36,7 @@
         <COMPID name="fai_bca_bilan_ca_histo_bi" mc="Standard.Class" uid="fbb40f8e-c5a8-4a04-9587-d303f8eae94e"/>
         <COMPID name="fai_ligne_facture_vistex" mc="Standard.Class" uid="ecb3e7ce-51a6-49eb-abe8-599fd9b57fb3"/>
         <COMPID name="fai_rdi" mc="Standard.Class" uid="250a038c-fb03-4a71-9496-326989cd1ea3"/>
+        <COMPID name="fai_ent_grossiste_entete" mc="Standard.Class" uid="5cd897b7-104f-4e84-b633-2922ce23d416"/>
         <COMPID name="fai_ent_grossiste_ligne" mc="Standard.Class" uid="6ffaf1d1-23e4-4884-8a84-2e0090781de2"/>
         <COMPID name="fai_offisante_regional" mc="Standard.Class" uid="337f9b01-dfac-4fdf-9886-3f05643e8c12"/>
         <COMPID name="fai_prix" mc="Standard.Class" uid="8aac3714-f10d-42ec-a4fa-1b70a8c44e97"/>
@@ -43,7 +44,6 @@
         <COMPID name="ref_qualif_off_valeur" mc="Standard.Class" uid="538260ee-d231-419d-b43d-09ebfe05922c"/>
         <COMPID name="ref_uga" mc="Standard.Class" uid="44577abf-4844-4628-b291-ee8b55e48c70"/>
         <COMPID name="fai_ligne_contrat" mc="Standard.Class" uid="ddcde2f9-7c75-4b24-9828-4f7a80d92696"/>
-        <COMPID name="fai_ent_grossiste_entete" mc="Standard.Class" uid="5cd897b7-104f-4e84-b633-2922ce23d416"/>
         <COMPID name="fai_service_do" mc="Standard.Class" uid="164033c8-70bd-49b5-9c74-a99a7c200072"/>
         <COMPID name="fai_histo_contrat" mc="Standard.Class" uid="34939369-d36e-45f8-95d0-5c1610d0841c"/>
         <COMPID name="fai_ca_assiette_pco" mc="Standard.Class" uid="2b89dd70-cf39-41e8-b5de-cf4088a4c896"/>

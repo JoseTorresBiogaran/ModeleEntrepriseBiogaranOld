@@ -1,0 +1,1 @@
+copy acceliance_demo_dbtgen.lic acceliance_dbtgenerator.lic

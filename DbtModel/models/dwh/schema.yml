@@ -1,0 +1,113 @@
+version: 2
+models:
+  - name: fai_remise
+    description: 'null'
+    columns:
+      - name: id_client
+        description: ''
+        data_type: 'STRING'
+      - name: id_marche
+        description: ''
+        data_type: 'STRING'
+      - name: date_deb_cpv_marche
+        description: ''
+        data_type: 'DATE'
+      - name: dt_fin_validite_remise
+        description: ''
+        data_type: 'DATE'
+      - name: dt_deb_validite_remise
+        description: ''
+        data_type: 'DATE'
+      - name: code_m
+        description: ''
+        data_type: 'STRING'
+      - name: motif_maj
+        description: ''
+        data_type: 'STRING'
+      - name: id_cv
+        description: 'null'
+        data_type: 'FLOAT64'
+        constraints:
+          - type: foreign_key
+        tests:
+          - relationships:
+            field: id_cdv
+            to: ref('ref_condition_vente')
+      - name: user_maj
+        description: ''
+        data_type: 'STRING'
+      - name: id_cible_marche
+        description: ''
+        data_type: 'STRING'
+      - name: qte_min
+        description: ''
+        data_type: 'FLOAT64'
+      - name: id
+        description: ''
+        data_type: 'FLOAT64'
+        constraints:
+          - type: primary_key
+          - type: not_null
+      - name: statut
+        description: ''
+        data_type: 'STRING'
+      - name: qte_max
+        description: ''
+        data_type: 'FLOAT64'
+      - name: palier
+        description: ''
+        data_type: 'FLOAT64'
+      - name: tx_remise
+        description: ''
+        data_type: 'NUMERIC'
+      - name: canal_rdp
+        description: ''
+        data_type: 'STRING'
+      - name: groupe_rdp
+        description: ''
+        data_type: 'STRING'
+      - name: date_fin_cpv_marche
+        description: ''
+        data_type: 'DATE'
+      - name: dt_maj
+        description: ''
+        data_type: 'DATE'
+  - name: ref_condition_vente
+    description: 'null'
+    columns:
+      - name: dt_maj
+        description: ''
+        data_type: 'DATE'
+      - name: type_cdv
+        description: ''
+        data_type: 'STRING'
+      - name: otc_engagement
+        description: ''
+        data_type: 'STRING'
+      - name: otc_marque
+        description: ''
+        data_type: 'STRING'
+      - name: id_cdv
+        description: ''
+        data_type: 'FLOAT64'
+        constraints:
+          - type: primary_key
+          - type: not_null
+      - name: type_remise
+        description: ''
+        data_type: 'STRING'
+      - name: dt_generation
+        description: ''
+        data_type: 'DATE'
+      - name: dt_deb_cdv
+        description: ''
+        data_type: 'DATE'
+      - name: dt_fin_cdv
+        description: ''
+        data_type: 'DATE'
+      - name: user_maj
+        description: ''
+        data_type: 'STRING'
+      - name: nom_cdv
+        description: ''
+        data_type: 'STRING'

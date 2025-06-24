@@ -1,7 +1,10 @@
-#Thu Jun 19 16:51:18 CEST 2025
-org.modelio.app.model.search.ui.SearchHistory5=ref_service
+#Tue Jun 24 16:17:12 CEST 2025
+org.modelio.app.model.search.ui.SearchHistory5=ref_prod
 org.modelio.app.diagram.editor.OpenedDiagrams0='Mod\u00E8le de donn\u00E9es' {e4abe1e3-7936-446e-9bad-6492cbbf02c7} Standard.ClassDiagram
-org.modelio.app.model.search.ui.SearchHistory1=code_emplacement_dps
-org.modelio.app.model.search.ui.SearchHistory2=ref_prod
-org.modelio.app.model.search.ui.SearchHistory3=ref_con
-org.modelio.app.model.search.ui.SearchHistory4=fai_remise
+org.modelio.app.model.search.ui.SearchHistory6=ref_con
+org.modelio.app.model.search.ui.SearchHistory7=fai_remise
+org.modelio.app.model.search.ui.SearchHistory8=ref_service
+org.modelio.app.model.search.ui.SearchHistory1=ref_client
+org.modelio.app.model.search.ui.SearchHistory2=fai_adresse
+org.modelio.app.model.search.ui.SearchHistory3=grossiste
+org.modelio.app.model.search.ui.SearchHistory4=code_emplacement_dps

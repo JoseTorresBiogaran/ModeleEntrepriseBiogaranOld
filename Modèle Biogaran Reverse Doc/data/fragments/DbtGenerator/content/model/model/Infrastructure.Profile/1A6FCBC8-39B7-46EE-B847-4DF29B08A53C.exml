@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DatavaultBuilderGeneratorProfile" version="4">
+  <OBJECT>
+    <ID name="DatavaultBuilderGeneratorProfile" mc="Infrastructure.Profile" uid="1A6FCBC8-39B7-46EE-B847-4DF29B08A53C"/>
+    <PID name="DbtGenerator" mc="Infrastructure.ModuleComponent" uid="C81D02C9-1D13-4900-B362-693A7C4784BC"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[DatavaultBuilderGeneratorProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+        <COMPID name="DbtBusinessKey" mc="Infrastructure.Stereotype" uid="0A349AB5-69F5-4499-B303-95289890E146"/>
+        <COMPID name="DbtColumnInformation" mc="Infrastructure.Stereotype" uid="E8DC64A6-BEC6-4131-9AB8-8E0B9473AE29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

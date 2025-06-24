@@ -1,0 +1,13 @@
+testddl:
+  outputs:
+    dev:
+      dbname: postgres
+      host: srv-postgres
+      pass: password
+      port: 5432
+      schema: dbt-test
+      threads: 2
+      type: postgres
+      user: postgres
+  target: dev
+

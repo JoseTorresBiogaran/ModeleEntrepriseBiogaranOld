@@ -7,6 +7,11 @@
       <ATT name="Name"><![CDATA[LocalProfile]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+        <COMPID name="SqlPK" mc="Infrastructure.Stereotype" uid="a5c3b840-8755-499e-868f-1b8ae7d4e148"/>
+      </COMP>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

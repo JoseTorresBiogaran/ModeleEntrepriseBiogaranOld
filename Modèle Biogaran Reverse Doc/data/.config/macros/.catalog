@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><catalog>
+<script name="generate_sql_for_sprint" path="..\..\..\..\macros\generate_sql_for_sprint.py" icon-path="" show-menu="false" show-toolbar="false">
+<description></description>
+</script>
+<script name="generate-dbt" path="..\..\..\..\macros\generate-dbt.py" icon-path="" show-menu="false" show-toolbar="false">
+<description></description>
+</script>
+</catalog>

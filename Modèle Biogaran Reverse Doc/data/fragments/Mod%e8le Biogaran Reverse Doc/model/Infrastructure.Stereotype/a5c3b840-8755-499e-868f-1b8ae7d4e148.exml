@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SqlPK" version="4">
+  <OBJECT>
+    <ID name="SqlPK" mc="Infrastructure.Stereotype" uid="a5c3b840-8755-499e-868f-1b8ae7d4e148"/>
+    <PID name="LocalProfile" mc="Infrastructure.Profile" uid="dae97b21-3dd3-4c78-9241-85059366d33a"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="LabelKey"><![CDATA[SqlPK]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Standard.Attribute]]></ATT>
+      <ATT name="Name"><![CDATA[SqlPK]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable">
+        <COMPID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="b48a1f45-7eb8-4253-914a-c40f528d3ed7"/>
+      </COMP>
+      <LINK relation="Parent">
+        <FOREIGNID name="CartographyManagerCartography" mc="Infrastructure.Stereotype" uid="6a34537e-8d53-4358-8b40-41bdf91c9218"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

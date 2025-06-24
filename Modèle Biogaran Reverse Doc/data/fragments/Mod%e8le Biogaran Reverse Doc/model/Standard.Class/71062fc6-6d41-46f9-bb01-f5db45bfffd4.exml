@@ -38,6 +38,42 @@
             <LINK relation="Type">
               <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="9741da81-2e19-462e-8dbd-83ef7e7d1226"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="8659c653-ddd6-4cc4-8bce-6fa333984b20"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="c697877f-3457-4e75-aff7-23073ea2a948"/>
@@ -78,6 +114,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="0bfe5858-60a3-40dd-97fa-d0693266ce96"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="815bf77a-ec3a-4736-b52d-95c41e5bf301"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="80f3982c-933d-4fd6-9cde-e32212a84b7e"/>
@@ -118,6 +190,74 @@
             <LINK relation="Type">
               <FOREIGNID name="float" mc="Standard.DataType" uid="00000004-0000-000b-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <ID name="SqlPK" mc="Infrastructure.Stereotype" uid="a5c3b840-8755-499e-868f-1b8ae7d4e148"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+              <FOREIGNID name="DbtBusinessKey" mc="Infrastructure.Stereotype" uid="0A349AB5-69F5-4499-B303-95289890E146"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="547eb3ac-6e69-4b61-a0d1-5e1987caad9a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="a5c3b840-8755-499e-868f-1b8ae7d4e148" mc="Infrastructure.TypedPropertyTable" uid="b240a342-3e4a-4450-98c7-d6702ca6267a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[a5c3b840-8755-499e-868f-1b8ae7d4e148]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:21:28 CEST 2025
+isPK=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="b48a1f45-7eb8-4253-914a-c40f528d3ed7"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="89d7357b-784c-492e-bc06-27ccd419021e"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="0A349AB5-69F5-4499-B303-95289890E146" mc="Infrastructure.TypedPropertyTable" uid="b883c5ca-7b7f-48c2-8abe-a3eff0418366"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[0A349AB5-69F5-4499-B303-95289890E146]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:58:51 CEST 2025
+IsBusinessKey=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="E42202F3-525F-479F-9F88-AE1849570801"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="1ea6ff05-e142-4118-b165-7a92383a7af7"/>
@@ -158,6 +298,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="657c3234-6e47-4160-9963-f11f09e0df96"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="fa9dcb38-2081-4106-b0f1-d63524697ec6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="3f36b808-c487-4574-bf2b-eecc99fc1411"/>
@@ -198,6 +374,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="1f7b934d-b2da-41ac-81b4-23a14dcc0e2c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="8023b499-52ea-4cec-9de9-3d0ad925f113"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="f6876bec-d6eb-4ab5-a344-12d0dda35723"/>
@@ -238,6 +450,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="6418f721-2325-4979-ac68-1f988405bacf"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="fd2e36ad-adf0-42ac-b706-1e0f00b5706f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="a9f0c70e-0b03-4a53-9722-a138ecad8713"/>
@@ -278,6 +526,42 @@
             <LINK relation="Type">
               <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="cd387a71-2704-4b99-a86b-59793ae5de61"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="f012bd1e-eee5-488d-8a90-afd27257ddf8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="bbc67081-2de8-4b79-b2c1-23e5afeb7a30"/>
@@ -318,6 +602,42 @@
             <LINK relation="Type">
               <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="4ebb3b03-a735-4bf2-98c9-f2711116103c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="e1e6bb92-0546-4f6c-baf5-6e7ea02578c0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="db82eedc-96d6-4d9e-961c-461b18549bf8"/>
@@ -358,6 +678,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="268c4ad7-e29a-4cd3-b2c3-2a6a3b298cf3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="a5b7806f-0108-467b-b820-1f4b2cdf768d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="0c12f5ad-f037-4ed9-a2de-d0812bbdca67"/>
@@ -398,6 +754,42 @@
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="8369c1e3-9e2b-44f8-b965-e953c4f6b9c0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="f3fe098c-68ee-47d8-852a-7d24d9b6b9fc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="c1cadcfb-02c6-4fe3-b418-8674166fe600"/>
@@ -438,6 +830,42 @@
             <LINK relation="Type">
               <FOREIGNID name="date" mc="Standard.DataType" uid="00000004-0000-0014-0000-000000000000"/>
             </LINK>
+            <LINK relation="Extension">
+              <ID name="CartographyUsage" mc="Infrastructure.Stereotype" uid="52709af2-3e0c-4d4a-9271-d0b744f6bccd"/>
+              <FOREIGNID name="DbtModelInformation" mc="Infrastructure.Stereotype" uid="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3"/>
+            </LINK>
+            <COMP relation="Properties">
+              <OBJECT>
+                <ID name="52709af2-3e0c-4d4a-9271-d0b744f6bccd" mc="Infrastructure.TypedPropertyTable" uid="2e55d9b5-fbae-4382-91a9-b7a67abfc1d5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[52709af2-3e0c-4d4a-9271-d0b744f6bccd]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 11:17:26 CEST 2025
+Demo=Sprint1
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <ID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="810008e9-b21c-4671-b011-549d4e574e01"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3" mc="Infrastructure.TypedPropertyTable" uid="a658e800-2725-445d-89d1-e8be3cc1c6b3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[49DC7775-EA8E-4AA2-AC78-B28A1A6F91C3]]></ATT>
+                  <ATT name="Content"><![CDATA[#Tue Jun 24 14:55:33 CEST 2025
+IsEnabled=true
+]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="PropertyTableDefinition" mc="Infrastructure.PropertyTableDefinition" uid="D52A3FAC-A1B1-4A83-9927-C06ED5564E8D"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <COMP relation="Descriptor">
               <OBJECT>
                 <ID name="" mc="Infrastructure.Note" uid="39b49aaf-3a46-4fb2-9d67-9abc48258e68"/>
